@@ -91,13 +91,14 @@ jQuery(document).ready(function ($) {
 	var myDoughnut = new Chart(document.getElementById("flutter").getContext("2d")).Doughnut(doughnutData);
 	
 });
-
+//固定TOPバーを後ろに隠す
 $(".btn-lg").click(function(){
   $("#section-topbar").css({
         "z-index": "0",
     });
 });
 
+//固定TOPバーを前に出す
 $(".btn-default").click(function(){
    $("#section-topbar").css({
         "z-index": "1",
