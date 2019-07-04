@@ -29,6 +29,10 @@ p {
   text-align: center;
 }
 
+hr{
+  background-color:#172838; 
+}
+
 /* Links */
 
 a {
@@ -158,6 +162,8 @@ By default, top navigation bar uses "fixed" position
 #section-topbar i {
   font-size: 25px;
 }
+
+
 
 /*---------------------------------------------------
 SECTION WRAPS
@@ -547,4 +553,29 @@ sm {
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box
+}
+
+/*トップバーレスポンシブデザイン対応記述*/
+@media screen and (max-width: 480px) {
+  #section-topbar ul#nav{
+    width: 100%;
+  }
+  #section-topbar ul#nav>li{
+    width: 20%;
+  }
+  #section-topbar{
+    bottom:0;
+    position: fixed;
+    top: auto;
+  }
+  body{
+    top:0;
+  }
+  #headerwrap{
+    margin-top: 0px;
+    
+  }
+  #copyrights{
+    margin-bottom: 60px;
+  }
 }
