@@ -275,8 +275,6 @@ SECTION WRAPS
 
 /* folio */
 #foliowrap {
-/*  background: url(../img/foliowrap.jpg) no-repeat center top;*/
-  margin-top: 30px;
   padding-top: 50px;
   text-align: center;
   background-attachment: relative;
