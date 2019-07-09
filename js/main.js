@@ -97,6 +97,11 @@ $(".btn-lg").click(function(){
         "z-index": "0",
     });
 });
+$(".btn-lg").click(function(){
+  $("#smp-topbar").css({
+        "z-index": "0",
+    });
+});
 
 //固定TOPバーを前に出す
 $(".btn-default").click(function(){
@@ -106,6 +111,17 @@ $(".btn-default").click(function(){
 });
 $(".close").click(function(){
    $("#section-topbar").css({
+        "z-index": "1",
+    });
+});
+
+$(".btn-default").click(function(){
+   $("#smp-topbar").css({
+        "z-index": "1",
+    });
+});
+$(".close").click(function(){
+   $("#smp-topbar").css({
         "z-index": "1",
     });
 });
