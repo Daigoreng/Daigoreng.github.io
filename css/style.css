@@ -601,6 +601,7 @@ sm {
   }
   /*  アイコンを下に配列*/
   #section-topbar {
+    display: block;
     bottom: 0;
     position: fixed;
     top: auto;
